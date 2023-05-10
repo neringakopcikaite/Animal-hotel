@@ -1,0 +1,70 @@
+h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #000958;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+button {
+  background: rgba(209, 135, 0, 0.6784313725) !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+}
+button:hover {
+  scale: 1.05;
+}
+
+#contacts {
+  #first-column {
+    gap: 50px;
+  }
+  label,
+  .main-contacts {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: #656689;
+  }
+  .main-contacts {
+    letter-spacing: 1.5px;
+    line-height: 35px;
+  }
+  a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #656689;
+  }
+  .social-media-icons {
+    background-color: rgba(209, 135, 0, 0.6784313725);
+    border-radius: 7px;
+    width: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+  }
+  .social-media-icons-div {
+    gap: 15px;
+  }
+}
+
+#map {
+  iframe {
+    border-radius: 36px;
+  }
+}
+
+
+@media (max-width:992px) {
+  #contacts {
+    h2{
+      font-size: 21px
+    }
+  }
+}

@@ -1,0 +1,76 @@
+#info-about-team {
+  h1.title {
+    font-family: "Pacifico", cursive;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #000958;
+  }
+  .card {
+    background: inherit;
+  }
+  .card-body {
+    height: 300px;
+    border-radius: 15px;
+  }
+  .card-body.firstImg {
+    background-image: url("../../assets/spec-1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .card-body.secondImg {
+    background-image: url("../../assets/spec-2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .card-body.thirdImg {
+    background-image: url("../../assets/spec-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .card-body.forthImg {
+    background-image: url("../../assets/spec-4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .card-footer {
+    background: rgba(209, 135, 0, 0.6784313725);
+    color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+    div {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      gap: 10px;
+      a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  .card {
+    border-radius: 0 !important;
+    border: 0 !important;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .font-size-h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .font-size-h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
